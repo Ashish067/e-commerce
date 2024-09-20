@@ -6,7 +6,7 @@ interface Props {
 
 const GridLayout = ({ children }: Props) => {
   return (
-    <div className="min-h-screen grid grid-rows-[25px_auto_1fr_auto] grid-cols-1">
+    <div className="min-h-screen dark:bg-black dark:text-white grid grid-rows-[25px_auto_1fr_auto] grid-cols-1">
       {children}
     </div>
   );

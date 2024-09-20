@@ -1,15 +1,19 @@
 import GridLayout from "./components/GridLayout";
 import Navbar from "./components/Navbar";
+import ThemeSwitch from "./components/ThemeSwitch";
 
 const App = () => {
   return (
     <GridLayout>
-      <div className="bg-green-300">Nav</div>
+      <div className="flex justify-end">
+        <ThemeSwitch />
+       
+      </div>
       <div>
         <Navbar />
       </div>
-      <div className="bg-slate-600">Main</div>
-      <div className="bg-black text-white">Footer</div>
+      <div className="">Main</div>
+      <div className="">Footer</div>
     </GridLayout>
   );
 };
