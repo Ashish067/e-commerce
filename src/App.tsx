@@ -12,7 +12,10 @@ const App = () => {
       <div>
         <Navbar />
       </div>
-      <div className="">
+      <div className="flex flex-col justify-center">
+        <h1 className="text-center my-5 font-mono font-semibold text-2xl">
+          Recommended Products
+        </h1>
         <ProductGrid />
       </div>
       <div className="">Footer</div>
